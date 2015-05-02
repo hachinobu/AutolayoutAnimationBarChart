@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2F18CE21AF4C3F4002C2EBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18CE11AF4C3F4002C2EBD /* main.m */; };
+		C2F18CE51AF4C3F4002C2EBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18CE41AF4C3F4002C2EBD /* AppDelegate.m */; };
+		C2F18CE81AF4C3F4002C2EBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18CE71AF4C3F4002C2EBD /* ViewController.m */; };
+		C2F18CEB1AF4C3F4002C2EBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2F18CE91AF4C3F4002C2EBD /* Main.storyboard */; };
+		C2F18CED1AF4C3F4002C2EBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2F18CEC1AF4C3F4002C2EBD /* Images.xcassets */; };
+		C2F18CF01AF4C3F4002C2EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F18CEE1AF4C3F4002C2EBD /* LaunchScreen.xib */; };
+		C2F18CFC1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18CFB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.m */; };
+		C2F18D091AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = C2F18D071AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.m */; };
+		C2F18D0A1AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.xib in Resources */ = {isa = PBXBuildFile; fileRef = C2F18D081AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2F18CF61AF4C3F4002C2EBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2F18CD41AF4C3F4002C2EBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2F18CDB1AF4C3F4002C2EBD;
+			remoteInfo = HACAutolayoutAnimationBarChart;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2F18CDC1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HACAutolayoutAnimationBarChart.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F18CE01AF4C3F4002C2EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F18CE11AF4C3F4002C2EBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2F18CE31AF4C3F4002C2EBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2F18CE41AF4C3F4002C2EBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2F18CE61AF4C3F4002C2EBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2F18CE71AF4C3F4002C2EBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2F18CEA1AF4C3F4002C2EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2F18CEC1AF4C3F4002C2EBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C2F18CEF1AF4C3F4002C2EBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C2F18CF51AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HACAutolayoutAnimationBarChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2F18CFA1AF4C3F4002C2EBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2F18CFB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HACAutolayoutAnimationBarChartTests.m; sourceTree = "<group>"; };
+		C2F18D061AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HACAutolayoutAnimationBarChart.h; sourceTree = "<group>"; };
+		C2F18D071AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HACAutolayoutAnimationBarChart.m; sourceTree = "<group>"; };
+		C2F18D081AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HACAutolayoutAnimationBarChart.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2F18CD91AF4C3F4002C2EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F18CF21AF4C3F4002C2EBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2F18CD31AF4C3F4002C2EBD = {
+			isa = PBXGroup;
+			children = (
+				C2F18CDE1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart */,
+				C2F18CF81AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests */,
+				C2F18CDD1AF4C3F4002C2EBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2F18CDD1AF4C3F4002C2EBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18CDC1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart.app */,
+				C2F18CF51AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2F18CDE1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18D051AF4C40A002C2EBD /* AutolayoutBarChart */,
+				C2F18CE31AF4C3F4002C2EBD /* AppDelegate.h */,
+				C2F18CE41AF4C3F4002C2EBD /* AppDelegate.m */,
+				C2F18CE61AF4C3F4002C2EBD /* ViewController.h */,
+				C2F18CE71AF4C3F4002C2EBD /* ViewController.m */,
+				C2F18CE91AF4C3F4002C2EBD /* Main.storyboard */,
+				C2F18CEC1AF4C3F4002C2EBD /* Images.xcassets */,
+				C2F18CEE1AF4C3F4002C2EBD /* LaunchScreen.xib */,
+				C2F18CDF1AF4C3F4002C2EBD /* Supporting Files */,
+			);
+			path = HACAutolayoutAnimationBarChart;
+			sourceTree = "<group>";
+		};
+		C2F18CDF1AF4C3F4002C2EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18CE01AF4C3F4002C2EBD /* Info.plist */,
+				C2F18CE11AF4C3F4002C2EBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2F18CF81AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18CFB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.m */,
+				C2F18CF91AF4C3F4002C2EBD /* Supporting Files */,
+			);
+			path = HACAutolayoutAnimationBarChartTests;
+			sourceTree = "<group>";
+		};
+		C2F18CF91AF4C3F4002C2EBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18CFA1AF4C3F4002C2EBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2F18D051AF4C40A002C2EBD /* AutolayoutBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				C2F18D061AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.h */,
+				C2F18D071AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.m */,
+				C2F18D081AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.xib */,
+			);
+			path = AutolayoutBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2F18CDB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F18CFF1AF4C3F4002C2EBD /* Build configuration list for PBXNativeTarget "HACAutolayoutAnimationBarChart" */;
+			buildPhases = (
+				C2F18CD81AF4C3F4002C2EBD /* Sources */,
+				C2F18CD91AF4C3F4002C2EBD /* Frameworks */,
+				C2F18CDA1AF4C3F4002C2EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HACAutolayoutAnimationBarChart;
+			productName = HACAutolayoutAnimationBarChart;
+			productReference = C2F18CDC1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2F18CF41AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2F18D021AF4C3F4002C2EBD /* Build configuration list for PBXNativeTarget "HACAutolayoutAnimationBarChartTests" */;
+			buildPhases = (
+				C2F18CF11AF4C3F4002C2EBD /* Sources */,
+				C2F18CF21AF4C3F4002C2EBD /* Frameworks */,
+				C2F18CF31AF4C3F4002C2EBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2F18CF71AF4C3F4002C2EBD /* PBXTargetDependency */,
+			);
+			name = HACAutolayoutAnimationBarChartTests;
+			productName = HACAutolayoutAnimationBarChartTests;
+			productReference = C2F18CF51AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2F18CD41AF4C3F4002C2EBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Nishinobu.Takahiro;
+				TargetAttributes = {
+					C2F18CDB1AF4C3F4002C2EBD = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					C2F18CF41AF4C3F4002C2EBD = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = C2F18CDB1AF4C3F4002C2EBD;
+					};
+				};
+			};
+			buildConfigurationList = C2F18CD71AF4C3F4002C2EBD /* Build configuration list for PBXProject "HACAutolayoutAnimationBarChart" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2F18CD31AF4C3F4002C2EBD;
+			productRefGroup = C2F18CDD1AF4C3F4002C2EBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2F18CDB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart */,
+				C2F18CF41AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2F18CDA1AF4C3F4002C2EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F18CEB1AF4C3F4002C2EBD /* Main.storyboard in Resources */,
+				C2F18CF01AF4C3F4002C2EBD /* LaunchScreen.xib in Resources */,
+				C2F18D0A1AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.xib in Resources */,
+				C2F18CED1AF4C3F4002C2EBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F18CF31AF4C3F4002C2EBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2F18CD81AF4C3F4002C2EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F18CE81AF4C3F4002C2EBD /* ViewController.m in Sources */,
+				C2F18CE51AF4C3F4002C2EBD /* AppDelegate.m in Sources */,
+				C2F18D091AF4C44C002C2EBD /* HACAutolayoutAnimationBarChart.m in Sources */,
+				C2F18CE21AF4C3F4002C2EBD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2F18CF11AF4C3F4002C2EBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2F18CFC1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChartTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2F18CF71AF4C3F4002C2EBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2F18CDB1AF4C3F4002C2EBD /* HACAutolayoutAnimationBarChart */;
+			targetProxy = C2F18CF61AF4C3F4002C2EBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2F18CE91AF4C3F4002C2EBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F18CEA1AF4C3F4002C2EBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2F18CEE1AF4C3F4002C2EBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2F18CEF1AF4C3F4002C2EBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2F18CFD1AF4C3F4002C2EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2F18CFE1AF4C3F4002C2EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2F18D001AF4C3F4002C2EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HACAutolayoutAnimationBarChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2F18D011AF4C3F4002C2EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HACAutolayoutAnimationBarChart/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2F18D031AF4C3F4002C2EBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HACAutolayoutAnimationBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACAutolayoutAnimationBarChart.app/HACAutolayoutAnimationBarChart";
+			};
+			name = Debug;
+		};
+		C2F18D041AF4C3F4002C2EBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HACAutolayoutAnimationBarChartTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HACAutolayoutAnimationBarChart.app/HACAutolayoutAnimationBarChart";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2F18CD71AF4C3F4002C2EBD /* Build configuration list for PBXProject "HACAutolayoutAnimationBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F18CFD1AF4C3F4002C2EBD /* Debug */,
+				C2F18CFE1AF4C3F4002C2EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2F18CFF1AF4C3F4002C2EBD /* Build configuration list for PBXNativeTarget "HACAutolayoutAnimationBarChart" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F18D001AF4C3F4002C2EBD /* Debug */,
+				C2F18D011AF4C3F4002C2EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2F18D021AF4C3F4002C2EBD /* Build configuration list for PBXNativeTarget "HACAutolayoutAnimationBarChartTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2F18D031AF4C3F4002C2EBD /* Debug */,
+				C2F18D041AF4C3F4002C2EBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2F18CD41AF4C3F4002C2EBD /* Project object */;
+}

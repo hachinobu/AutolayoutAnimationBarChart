@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7702"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HACAutolayoutAnimationBarChart">
+            <connections>
+                <outlet property="barBackGroundView" destination="LRw-sf-C5s" id="gZz-SO-VO7"/>
+                <outlet property="percentBarConstraintTop" destination="cvu-Vt-Z70" id="Aed-OA-01J"/>
+                <outlet property="percentView" destination="mOt-OF-ETU" id="7vt-Jr-m9A"/>
+                <outlet property="view" destination="iN0-l3-epB" id="6VB-Vy-ydf"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LRw-sf-C5s" userLabel="background">
+                    <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mOt-OF-ETU" userLabel="percent">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="mOt-OF-ETU" firstAttribute="top" secondItem="LRw-sf-C5s" secondAttribute="top" id="cvu-Vt-Z70"/>
+                        <constraint firstAttribute="trailing" secondItem="mOt-OF-ETU" secondAttribute="trailing" id="iKz-RE-2a4"/>
+                        <constraint firstItem="mOt-OF-ETU" firstAttribute="leading" secondItem="LRw-sf-C5s" secondAttribute="leading" id="mgL-N1-41M"/>
+                        <constraint firstAttribute="bottom" secondItem="mOt-OF-ETU" secondAttribute="bottom" id="oU5-VB-flL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="LRw-sf-C5s" secondAttribute="bottom" id="KXf-0O-gij"/>
+                <constraint firstAttribute="trailing" secondItem="LRw-sf-C5s" secondAttribute="trailing" id="L6L-vE-qld"/>
+                <constraint firstItem="LRw-sf-C5s" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="mji-dE-X9A"/>
+                <constraint firstItem="LRw-sf-C5s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="s9N-PF-r5g"/>
+            </constraints>
+            <point key="canvasLocation" x="396" y="428"/>
+        </view>
+    </objects>
+</document>
